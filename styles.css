@@ -1,1 +1,33 @@
+
 /*  your css code here. If applicable */
+body{
+	background-color:rgb(204,204,204);
+}
+.player_one, .player_two{
+	background-color: rgb(255,255,255);
+}
+h1 , h2{
+	text-align:center;
+	text-decoration:none;
+}
+ul{
+	background-color:rgb(255,255,255);
+	border:1px solid black;
+	border-radius: 5px;
+	padding:10px;
+}
+li{
+	list-style:none;
+	line-height: 20px;
+}
+.container{
+	margin-left:10vw;
+	margin-right:10vw;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding:10px;
+	background-color:rgb(255,255,255);
+}
+.player_one video, .player_two audio{
+	width:100%
+}
